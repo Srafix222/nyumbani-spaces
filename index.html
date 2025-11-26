@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMwo5TDEyIDJMMjEgOVYyMEMyMSAyMC41MzA0IDIwLjc4OTMgMjEuMDM5MSAyMC40MTQyIDIxLjQxNDJDMjAuMDM5MSAyMS43ODkzIDE5LjUzMDQgMjIgMTkgMjJINUM0LjQ2OTU3IDIyIDMuOTYwODYgMjEuNzg5MyAzLjU4NTc5IDIxLjQxNDJDMzIuMjEwNzEgMjEuMDM5MSAzIDIwLjUzMDQgMyAyMFY5WiIgZmlsbD0iIzIyYzU1ZSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMuNSIgZmlsbD0iI2Y1ZjFlOCIvPjxyZWN0IHg9IjExIiB5PSIxNSIgd2lkdGg9IjIiIGhlaWdodD0iNCIgcng9IjEiIGZpbGw9IiNmNWYxZTgiLz48L3N2Zz4=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyumbani Spaces</title>
+    <link rel="preload" href="https://cdn.openart.ai/uploads/image_wSMg3dbE_1759698317835_raw.jpg" as="image">
+    <link rel="preload" href="https://cdn.leonardo.ai/users/10f5f86d-c9b1-4979-8e78-fb964526dd5a/generations/52c8cf7b-d497-43ef-a7f5-7922ba623ea7/segments/4:4:1/Lucid_Origin_Exterior_Image_Illustrate_a_modern_apartment_comp_3.jpg" as="image">
+    <link rel="preload" href="https://cdn.mos.cms.futurecdn.net/soq33t3b3knvR2V2tYJ26M-1024-80.jpg.webp" as="image">
+    <link rel="preload" href="https://cdn.leonardo.ai/users/10f5f86d-c9b1-4979-8e78-fb964526dd5a/generations/5237b869-7e50-4739-a8b4-62cd7b664e8c/segments/3:4:1/Lucid_Origin_Create_an_image_illustrating_the_concept_of_purch_2.jpg" as="image">
+    <link rel="preload" href="https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Fgen.krea.ai%2Fimages%2F6aa853c6-b54b-4750-a444-772981778f39.png" as="image">
+    <link rel="preload" href="https://cdn.leonardo.ai/users/10f5f86d-c9b1-4979-8e78-fb964526dd5a/generations/b9463e88-3fbc-4192-87c5-1d717adfced5/segments/4:4:1/Lucid_Origin_Living_Room_Image_Create_a_welcoming_living_room__3.jpg" as="image">
+    <link rel="preload" href="https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Fgen.krea.ai%2Fimages%2F5c7e0c4f-c735-420a-b31c-32f4185121b8.png" as="image">
+    <link rel="preload" href="https://cdn.leonardo.ai/users/80f603df-4ae4-462c-8628-693ff5c5023c/generations/e9f26072-1025-4016-a617-c7453317737e/segments/3:4:1/Lucid_Origin_Design_an_inviting_and_upscale_image_of_a_luxurio_2.jpg" as="image">
+    <link rel="preload" href="https://cdn.leonardo.ai/users/10f5f86d-c9b1-4979-8e78-fb964526dd5a/generations/33f2df64-92ed-4ce6-80b4-f4ce80ebf1f6/segments/1:4:1/Flux_Dev_Professional_graphic_design_3D_render_Generate_a_seri_0.jpg" as="image">
+    <link rel="preconnect" href="https://cdn.openart.ai" crossorigin>
+    <link rel="preconnect" href="https://cdn.leonardo.ai" crossorigin>
+    <link rel="preconnect" href="https://www.krea.ai" crossorigin>
+    <link rel="preconnect" href="https://gen.krea.ai" crossorigin>
+    <link rel="preconnect" href="https://cdn.mos.cms.futurecdn.net" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': '#166534',
+              'brand-green-light': '#22c55e',
+              'brand-sand': '#f5f1e8',
+              'brand-dark': '#1e1b1b',
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'Inter', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              shimmer: {
+                '0%': { backgroundPosition: '-200% 0' },
+                '100%': { backgroundPosition: '200% 0' },
+              },
+              kenburns: {
+                '0%': { transform: 'scale(1) translateY(0)', transformOrigin: 'center center' },
+                '100%': { transform: 'scale(1.1) translateY(-10px)', transformOrigin: 'center center' },
+              },
+              scroll: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              }
+            },
+            animation: {
+              fadeInUp: 'fadeInUp 0.6s ease-out forwards',
+              shimmer: 'shimmer 1.5s infinite linear',
+              kenburns: 'kenburns 20s ease-out forwards',
+              scroll: 'scroll 25s linear infinite',
+            },
+            backgroundImage: {
+               'subtle-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231e1b1b' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+               'footer-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "@google/genai": "https://aistudiocdn.com/google-genai@^0.19.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-sand bg-subtle-pattern">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
