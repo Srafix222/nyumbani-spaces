@@ -122,7 +122,7 @@ const LandingPage: React.FC = () => {
     <div>
       {/* Hero Section */}
       <div className="relative h-[65vh] overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center animate-kenburns" style={{ backgroundImage: "url('https://cdn.openart.ai/uploads/image_wSMg3dbE_1759698317835_raw.jpg')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center animate-kenburns" style={{ backgroundImage: "url('https://res.cloudinary.com/dbmnmtoxn/image/upload/v1770281071/image_wSMg3dbE_1759698317835_raw_1_yox9rs.jpg')" }}></div>
         <div className="absolute inset-0 bg-black/60"></div>
         <div 
           className="absolute inset-0 opacity-10" 
